@@ -1,12 +1,9 @@
 ---
 execution:
-- concurrency: 2000
-  hold-for: 2m
-  ramp-up: 1m
-  locations:
-    eu-west-1: 2
-    eu-west-2: 1
-    eu-west-3: 1
+- concurrency: 50
+  hold-for: 3m
+  ramp-up: 2m
+ 
 
   scenario: Choose Flight
 scenarios:
